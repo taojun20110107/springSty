@@ -65,7 +65,7 @@ public class BpDeep
 		for (int j = 0; j < layerErr[len].length; j++)
 			layerErr[len][j] = layer[len][j] * (1 - layer[len][j]) * (tar[j] - layer[len][j]);
 
-		while (len--  > 0)
+		while (len-- > 0)
 		{
 			System.out.println("len:" + len);
 			for (int j = 0; j < layerErr[len].length; j++)
