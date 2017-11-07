@@ -4,7 +4,7 @@ public class Test
 {
 	public static void main(String[] args)
 	{
-		int len =12;
+		int len =52;
 		while (len-- > 0)
 		{
 			System.out.println(len);
